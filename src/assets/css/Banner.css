@@ -1,5 +1,5 @@
 #banner-container {
-  
+
   width: 93%;
 }
 
@@ -24,7 +24,7 @@
   margin: 0;
 }
 
-.ordernow { 
+.ordernow {
   position: absolute;
   top: 42%;
   left: 9%;
@@ -38,12 +38,13 @@
   cursor: pointer;
   font-weight: 700;
   border-radius: 5px;
-  
+
 }
 
 .ordernow:hover {
   background-color: #228B22;
 }
+
 .clicked {
   position: absolute;
   top: 42%;
@@ -57,7 +58,7 @@
   cursor: pointer;
   font-weight: 700;
   border-radius: 5px;
-  
+
 }
 
 
@@ -84,7 +85,7 @@
   background-color: darkgreen;
 }
 
-.carousel-control-prev span{
+.carousel-control-prev span {
 
   position: absolute;
   top: 40%;
@@ -100,7 +101,7 @@
 }
 
 
-.carousel-control-next span{
+.carousel-control-next span {
   position: absolute;
   top: 40%;
   right: 20%;
@@ -134,7 +135,7 @@
     font-size: 20px;
   }
 
-  .clicked{
+  .clicked {
     top: 53%;
     left: 12%;
     transform: translateX(-50%);
@@ -148,14 +149,15 @@
     left: 46.1%;
 
   }
-  .carousel-control-prev span{
+
+  .carousel-control-prev span {
     top: 40%;
     left: 30%;
     width: 45px;
     height: 45px;
   }
-  
-  .carousel-control-next span{
+
+  .carousel-control-next span {
     top: 40%;
     right: 30%;
     width: 45px;
@@ -184,10 +186,10 @@
     transform: translateX(-50%);
     padding: 2px 15px;
     font-size: 20px;
-    
+
   }
 
-  .clicked{ 
+  .clicked {
     top: 60%;
     left: 14.5%;
     transform: translateX(-50%);
@@ -196,28 +198,28 @@
   }
 
   .scrolldown {
-    
+
     width: 70px;
     height: 70px;
     font-size: 14px;
     top: 78%;
     left: 46.2%;
-}
+  }
 
-.carousel-control-prev span{
-  top: 35%;
-  left: 19%;
-  width: 50px;
-  height: 50px;
-}
+  .carousel-control-prev span {
+    top: 35%;
+    left: 19%;
+    width: 50px;
+    height: 50px;
+  }
 
-.carousel-control-next span{
-  top: 35%;
-  right: 19%;
-  width: 50px;
-  height: 50px;
-}
-  
+  .carousel-control-next span {
+    top: 35%;
+    right: 19%;
+    width: 50px;
+    height: 50px;
+  }
+
 }
 
 
@@ -227,7 +229,7 @@
 
 
   #banner-container {
-  
+
     width: 100% !important;
     padding: 0;
   }
@@ -248,26 +250,27 @@
     transform: translateX(-50%);
     padding: 4px 9px;
     font-size: 16px;
-   
+
   }
-  
+
   .scrolldown {
-    
-      width: 45px;
-      height: 45px;
-      font-size: 14px;
-      top: 80%;
-      left: 46.8%;
-    
+
+    width: 45px;
+    height: 45px;
+    font-size: 14px;
+    top: 80%;
+    left: 46.8%;
+
   }
-  .carousel-control-prev span{
+
+  .carousel-control-prev span {
     top: 35%;
     left: 19%;
     width: 40px;
     height: 40px;
   }
-  
-  .carousel-control-next span{
+
+  .carousel-control-next span {
     top: 35%;
     right: 19%;
     width: 40px;
@@ -308,16 +311,16 @@
     left: 46.5%;
   }
 
-  .carousel-control-prev span{
-    top: 35%;
-    left: 19%;
+  .carousel-control-prev span {
+    top: 39%;
+    left: 52%;
     width: 20px;
     height: 20px;
   }
-  
-  .carousel-control-next span{
-    top: 35%;
-    right: 19%;
+
+  .carousel-control-next span {
+    top: 39%;
+    right: 52%;
     width: 20px;
     height: 20px;
   }
@@ -342,7 +345,7 @@
     transform: translateX(-50%);
     padding: 2px 5px;
     font-size: 10px;
- 
+
 
 
   }
@@ -375,7 +378,7 @@
     transform: translateX(-50%);
     padding: 2px 5px;
     font-size: 8px;
-    
+
   }
 
   .scrolldown {
@@ -390,8 +393,8 @@
 
 
 @media screen and (max-width:321px) {
- 
- 
+
+
   .carousel-item .carousel-caption {
     top: 30%;
   }
@@ -407,7 +410,7 @@
     transform: translateX(-50%);
     padding: 2px 5px;
     font-size: 8px;
-    
+
   }
 
   .scrolldown {
@@ -424,7 +427,8 @@
 
 
 
-.carousel-control-next, .carousel-control-prev {
+.carousel-control-next,
+.carousel-control-prev {
   width: 6%;
 }
 
