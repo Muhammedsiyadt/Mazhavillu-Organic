@@ -3,16 +3,20 @@ import "./App.css";
 import Header from './views/Nav/Header'
 
 import Router from "./routes";
+import Home from "./views/home/Home";
 
 function App() {
   return (
-      <>
-    <React.Suspense>
+    <>
+      {/* <React.Suspense>
       <Header/>
       <Router />
-    </React.Suspense>
+    </React.Suspense> */}
+
+      <Header />
+      <Home/>
     </>
-    
+
   );
 }
 
