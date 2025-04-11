@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../../assets/css/weeklytopvendors.css';
+import '../../assets/css/Weeklytopvendors.css';
 
 import vendorlogo1 from "../../assets/images/vendorlogo1.png";
 import vendorlogo1_image1 from '../../assets/images/vendorlogo1_image1.png';
